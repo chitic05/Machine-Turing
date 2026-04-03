@@ -1,0 +1,17 @@
+# Turing Machine - accepts strings "ab", "aabb", "aaabbb", etc.
+# Pattern: one or more a's followed by one or more b's
+# Accepts when it reaches final state and can't find next transition
+
+.states
+S q0
+reading_a
+F reading_b
+
+.alphabet
+a b
+
+.transitions
+q0 a reading_a a R
+reading_a a reading_a a R
+reading_a b reading_b b R
+reading_b b reading_b b R

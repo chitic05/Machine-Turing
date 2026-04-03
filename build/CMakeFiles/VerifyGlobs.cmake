@@ -5,7 +5,9 @@ cmake_policy(SET CMP0009 NEW)
 # MY_SOURCES at CMakeLists.txt:9 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/david/Altele/Proiecte/cpp/Turing/src/*.cpp")
 set(OLD_GLOB
+  "/home/david/Altele/Proiecte/cpp/Turing/src/Turing.cpp"
   "/home/david/Altele/Proiecte/cpp/Turing/src/main.cpp"
+  "/home/david/Altele/Proiecte/cpp/Turing/src/parser.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
