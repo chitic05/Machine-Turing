@@ -1,3 +1,0 @@
-/home/david/Altele/Proiecte/cpp/Turing/build/CMakeFiles/Turing.dir
-/home/david/Altele/Proiecte/cpp/Turing/build/CMakeFiles/edit_cache.dir
-/home/david/Altele/Proiecte/cpp/Turing/build/CMakeFiles/rebuild_cache.dir
