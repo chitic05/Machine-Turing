@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: DFA
+# Project: Turing
 # Configurations: Debug
 # =============================================================================
 
@@ -41,50 +41,50 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/david/Altele/Proiecte/cpp/Turing/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target DFA
+# Object build statements for EXECUTABLE target Turing
 
 
 #############################################
-# Order-only phony target for DFA
+# Order-only phony target for Turing
 
-build cmake_object_order_depends_target_DFA: phony || CMakeFiles/DFA.dir
+build cmake_object_order_depends_target_Turing: phony || CMakeFiles/Turing.dir
 
-build CMakeFiles/DFA.dir/src/Turing.cpp.o: CXX_COMPILER__DFA_unscanned_Debug /home/david/Altele/Proiecte/cpp/Turing/src/Turing.cpp || cmake_object_order_depends_target_DFA
-  DEP_FILE = CMakeFiles/DFA.dir/src/Turing.cpp.o.d
+build CMakeFiles/Turing.dir/src/Turing.cpp.o: CXX_COMPILER__Turing_unscanned_Debug /home/david/Altele/Proiecte/cpp/Turing/src/Turing.cpp || cmake_object_order_depends_target_Turing
+  DEP_FILE = CMakeFiles/Turing.dir/src/Turing.cpp.o.d
   FLAGS = -g -std=c++17
   INCLUDES = -I/home/david/Altele/Proiecte/cpp/Turing/includes
-  OBJECT_DIR = CMakeFiles/DFA.dir
-  OBJECT_FILE_DIR = CMakeFiles/DFA.dir/src
+  OBJECT_DIR = CMakeFiles/Turing.dir
+  OBJECT_FILE_DIR = CMakeFiles/Turing.dir/src
 
-build CMakeFiles/DFA.dir/src/main.cpp.o: CXX_COMPILER__DFA_unscanned_Debug /home/david/Altele/Proiecte/cpp/Turing/src/main.cpp || cmake_object_order_depends_target_DFA
-  DEP_FILE = CMakeFiles/DFA.dir/src/main.cpp.o.d
+build CMakeFiles/Turing.dir/src/main.cpp.o: CXX_COMPILER__Turing_unscanned_Debug /home/david/Altele/Proiecte/cpp/Turing/src/main.cpp || cmake_object_order_depends_target_Turing
+  DEP_FILE = CMakeFiles/Turing.dir/src/main.cpp.o.d
   FLAGS = -g -std=c++17
   INCLUDES = -I/home/david/Altele/Proiecte/cpp/Turing/includes
-  OBJECT_DIR = CMakeFiles/DFA.dir
-  OBJECT_FILE_DIR = CMakeFiles/DFA.dir/src
+  OBJECT_DIR = CMakeFiles/Turing.dir
+  OBJECT_FILE_DIR = CMakeFiles/Turing.dir/src
 
-build CMakeFiles/DFA.dir/src/parser.cpp.o: CXX_COMPILER__DFA_unscanned_Debug /home/david/Altele/Proiecte/cpp/Turing/src/parser.cpp || cmake_object_order_depends_target_DFA
-  DEP_FILE = CMakeFiles/DFA.dir/src/parser.cpp.o.d
+build CMakeFiles/Turing.dir/src/parser.cpp.o: CXX_COMPILER__Turing_unscanned_Debug /home/david/Altele/Proiecte/cpp/Turing/src/parser.cpp || cmake_object_order_depends_target_Turing
+  DEP_FILE = CMakeFiles/Turing.dir/src/parser.cpp.o.d
   FLAGS = -g -std=c++17
   INCLUDES = -I/home/david/Altele/Proiecte/cpp/Turing/includes
-  OBJECT_DIR = CMakeFiles/DFA.dir
-  OBJECT_FILE_DIR = CMakeFiles/DFA.dir/src
+  OBJECT_DIR = CMakeFiles/Turing.dir
+  OBJECT_FILE_DIR = CMakeFiles/Turing.dir/src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DFA
+# Link build statements for EXECUTABLE target Turing
 
 
 #############################################
-# Link the executable DFA
+# Link the executable Turing
 
-build DFA: CXX_EXECUTABLE_LINKER__DFA_Debug CMakeFiles/DFA.dir/src/Turing.cpp.o CMakeFiles/DFA.dir/src/main.cpp.o CMakeFiles/DFA.dir/src/parser.cpp.o
+build Turing: CXX_EXECUTABLE_LINKER__Turing_Debug CMakeFiles/Turing.dir/src/Turing.cpp.o CMakeFiles/Turing.dir/src/main.cpp.o CMakeFiles/Turing.dir/src/parser.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/DFA.dir
+  OBJECT_DIR = CMakeFiles/Turing.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = DFA
-  TARGET_PDB = DFA.dbg
+  TARGET_FILE = Turing
+  TARGET_PDB = Turing.dbg
 
 
 #############################################
@@ -120,7 +120,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/david/Altele/Proiecte/cpp/Turing/build
 
-build all: phony DFA
+build all: phony Turing
 
 # =============================================================================
 # Built-in targets

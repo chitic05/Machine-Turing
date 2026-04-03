@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=DFA
+CMAKE_PROJECT_NAME:STATIC=Turing
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -224,6 +224,15 @@ DFA_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 DFA_SOURCE_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing
 
+//Value Computed by CMake
+DF_BINARY_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing/build
+
+//Value Computed by CMake
+DF_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+DF_SOURCE_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing
+
 //Single output directory for building all executables.
 EXECUTABLE_OUTPUT_PATH:PATH=
 
@@ -238,6 +247,33 @@ Project_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing
+
+//Value Computed by CMake
+TU_BINARY_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing/build
+
+//Value Computed by CMake
+TU_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+TU_SOURCE_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing
+
+//Value Computed by CMake
+T_BINARY_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing/build
+
+//Value Computed by CMake
+T_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+T_SOURCE_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing
+
+//Value Computed by CMake
+Turing_BINARY_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing/build
+
+//Value Computed by CMake
+Turing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Turing_SOURCE_DIR:STATIC=/home/david/Altele/Proiecte/cpp/Turing
 
 
 ########################

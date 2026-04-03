@@ -1,20 +1,20 @@
 [
 {
   "directory": "/home/david/Altele/Proiecte/cpp/Turing/build",
-  "command": "/usr/bin/g++ -I/home/david/Altele/Proiecte/cpp/Turing/includes -g -std=c++17 -o CMakeFiles/DFA.dir/src/Turing.cpp.o -c /home/david/Altele/Proiecte/cpp/Turing/src/Turing.cpp",
+  "command": "/usr/bin/g++ -I/home/david/Altele/Proiecte/cpp/Turing/includes -g -std=c++17 -o CMakeFiles/Turing.dir/src/Turing.cpp.o -c /home/david/Altele/Proiecte/cpp/Turing/src/Turing.cpp",
   "file": "/home/david/Altele/Proiecte/cpp/Turing/src/Turing.cpp",
-  "output": "CMakeFiles/DFA.dir/src/Turing.cpp.o"
+  "output": "CMakeFiles/Turing.dir/src/Turing.cpp.o"
 },
 {
   "directory": "/home/david/Altele/Proiecte/cpp/Turing/build",
-  "command": "/usr/bin/g++ -I/home/david/Altele/Proiecte/cpp/Turing/includes -g -std=c++17 -o CMakeFiles/DFA.dir/src/main.cpp.o -c /home/david/Altele/Proiecte/cpp/Turing/src/main.cpp",
+  "command": "/usr/bin/g++ -I/home/david/Altele/Proiecte/cpp/Turing/includes -g -std=c++17 -o CMakeFiles/Turing.dir/src/main.cpp.o -c /home/david/Altele/Proiecte/cpp/Turing/src/main.cpp",
   "file": "/home/david/Altele/Proiecte/cpp/Turing/src/main.cpp",
-  "output": "CMakeFiles/DFA.dir/src/main.cpp.o"
+  "output": "CMakeFiles/Turing.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/david/Altele/Proiecte/cpp/Turing/build",
-  "command": "/usr/bin/g++ -I/home/david/Altele/Proiecte/cpp/Turing/includes -g -std=c++17 -o CMakeFiles/DFA.dir/src/parser.cpp.o -c /home/david/Altele/Proiecte/cpp/Turing/src/parser.cpp",
+  "command": "/usr/bin/g++ -I/home/david/Altele/Proiecte/cpp/Turing/includes -g -std=c++17 -o CMakeFiles/Turing.dir/src/parser.cpp.o -c /home/david/Altele/Proiecte/cpp/Turing/src/parser.cpp",
   "file": "/home/david/Altele/Proiecte/cpp/Turing/src/parser.cpp",
-  "output": "CMakeFiles/DFA.dir/src/parser.cpp.o"
+  "output": "CMakeFiles/Turing.dir/src/parser.cpp.o"
 }
 ]

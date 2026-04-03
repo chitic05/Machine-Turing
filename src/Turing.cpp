@@ -67,6 +67,10 @@ Turing::Turing(const char* fileName){
             if(sym.length()>1){
                 throw std::runtime_error("Symbol should be a char! " + sym + "\n");
             }
+            if(sym[0] == '\0'){
+                std::cerr << "Warning: Skipping transition with null byte (\\0) - reserved as blank symbol!\n";
+                continue;
+            }
             if(bit.length()>1){
                 throw std::runtime_error("Overwrite bit should be a char! " + bit + "\n");
             }
