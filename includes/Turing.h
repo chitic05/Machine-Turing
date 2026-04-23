@@ -44,4 +44,5 @@ class Turing{
         Turing(const char* fileName);
         void initializeBand(const char* input);
         bool run();
+        void printBand();
 };

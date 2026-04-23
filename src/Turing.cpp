@@ -4,6 +4,8 @@
 #include <sstream>
 #include <iostream>
 
+constexpr char halt = '\0';
+
 Turing::Turing(const char* fileName){
 
     Parser parser(fileName);
@@ -132,16 +134,22 @@ void Turing::addTransition(const std::string& state, const uint8_t bit, const de
     throw std::runtime_error("Transition is impossible!\n");
 }
 
+void Turing::printBand(){
+    for(int i = 0; i< inputLength;++i)
+        std::cout << band[i] << ' ';
+}
 
 bool Turing::run(){
     currentState = startingState;
     bandPtr = 0;
     
     while(true) {
-        //If in final state AND reached end of input, accept
-        if(finalStates.count(currentState) > 0 && bandPtr >= inputLength) {
+        //If in final state, accept
+        if(finalStates.count(currentState) > 0) {
             return true;
         }
+        
+        if(band[bandPtr] == halt) return false;
         
         //Current symbol from band
         uint8_t currentSymbol = band[bandPtr];
@@ -165,7 +173,7 @@ bool Turing::run(){
             return false;  // Pointer out of bounds
         }
         bandPtr = static_cast<size_t>(newPtr);
-        
+        if(bandPtr >= BAND_SIZE) return false;
         currentState = dest.destState;
     }
     

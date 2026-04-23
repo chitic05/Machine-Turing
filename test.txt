@@ -1,17 +1,18 @@
-# Turing Machine - accepts strings "ab", "aabb", "aaabbb", etc.
-# Pattern: one or more a's followed by one or more b's
-# Accepts when it reaches final state and can't find next transition
+# Test with letters instead of special chars
+# Move H to beginning: 111H111 -> H111111
 
 .states
 S q0
-reading_a
-F reading_b
+q_scan_right
+q_move_left
+F q_done
 
 .alphabet
-a b
+1 H X
 
 .transitions
-q0 a reading_a a R
-reading_a a reading_a a R
-reading_a b reading_b b R
-reading_b b reading_b b R
+q0 1 q_scan_right X R
+q_scan_right 1 q_scan_right 1 R
+q_scan_right H q_move_left 1 L
+q_move_left 1 q_move_left 1 L
+q_move_left X q_done H R
